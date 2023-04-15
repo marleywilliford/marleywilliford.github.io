@@ -1,28 +1,29 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!--required meta tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <!--bootstrap css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--custom css-->
+    <link href="./css/virtual_portfolio.css" rel="stylesheet">
+    <!--javascript import-->
+    <script src="js/howdy.js"></script>
+    <!--title-->
+    <title>Home: Marley Williford's Portfolio</title>
   </head>
   <body>
-    <nav class="nav">
-        <a class="nav-link active" aria-current="page" href="#">HOME</a>
-        <a class="nav-link" href="#">Data</a>
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Obsolete</a>
-    </nav>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">HOME</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
@@ -50,12 +51,12 @@
       </div>
     </nav>
     <div class="container">
-        <h1 class="display-1">Hello, world!</h1>
+        <h1 class="display-1" onclick="conditional()">Hello, world!</h1>
         <h3 class="display-3 d-none d-md-block">It's Marley's web 2.0 ~~~</h3>
     </div>
     <div class="container-fluid">
-        <img src="glitter.gif">
-        <img class="img-fluid" src="angel.jpeg">
+        <img src="images/glitter.gif">
+        <img class="img-fluid" src="images/angel.jpeg">
     </div>
     <div class="container-lg">
         <div class="row">
@@ -80,5 +81,8 @@
         </thead>
     </table>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <div class="container mt-5">
+      <button type="button" class="btn btn-light" onclick="howdy('Marley')">Run Sample JS</button>
+    </div>
 </body>
 </html>
