@@ -12,3 +12,18 @@ function conditional() {
         alert("Good evening!");
     }
 }
+
+function evalNumber() {
+    var inputValue = prompt("Enter any whole five-digit number without commas.")
+    if (inputValue.length != 5) {
+        alert("Please enter a five-digit whole number.")
+    } else if (inputValue.includes(".")) {
+        alert("Please enter a whole number.")
+    } else if (isNaN(inputValue)) {
+        alert(inputValue + " is not a number.")
+    } else if (inputValue % 2 == 0) {
+        alert(inputValue + " is an even number.")
+    } else {
+        alert(inputValue + " is an odd number.")
+    }
+}
