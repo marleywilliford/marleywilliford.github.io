@@ -1,0 +1,15 @@
+{
+    "petList" : 
+    [
+        {"nickname": "Toby",
+        "fullName": "October Madeline",
+        "species": "cat",
+        "color": "tricolor"
+        },
+        {"nickname": "Spot",
+        "fullName": "Arthur Barker",
+        "species": "dog",
+        "color": "black"
+        }
+    ]
+}

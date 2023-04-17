@@ -1,0 +1,60 @@
+:root {
+    --rose: #F52A85ff;
+    --licorice: #200309ff;
+    --hot-pink: #F873B7ff;
+    --raisin-black: #10081Cff;
+    --dark-purple: #21112Dff;
+}
+
+@font-face {
+    font-family: Aquatico-Regular;
+    src: url("/css/Aquatico-Regular.otf") format("opentype");
+}
+
+body {
+    background-color: var(--raisin-black);
+}
+
+h1 {
+    color: azure;
+    font-family: Aquatico-Regular;
+}
+
+h2 {
+    color: azure;
+    font-family: Aquatico-Regular;
+}
+
+h3 {
+    color: azure;
+}
+
+h4  {
+    color: azure;
+}
+
+h5 {
+    color: azure;
+}
+
+p {
+    color: azure;
+}
+
+a {
+    color: var(--rose);
+}
+
+#currentMinute {
+    color: azure;
+}
+
+#title {
+    color: azure;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
