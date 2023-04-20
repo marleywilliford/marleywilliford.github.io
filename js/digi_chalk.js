@@ -14,8 +14,8 @@ function alphabetize() {
     var country = document.getElementById('country').value;
 
     var alphaOrig = [fruit, animal, state, country];
-    document.getElementById('alphaOrig').innerHTML = "Original order: " + JSON.stringify(alphaOrig);
+    document.getElementById('alphaOrig').innerHTML = "Original order: " + alphaOrig.join(", ");
     
     var alphaOutput = alphaOrig.slice().sort()
-    document.getElementById('alphaOutput').innerHTML = "Alphabetical order: " + JSON.stringify(alphaOutput);
+    document.getElementById('alphaOutput').innerHTML = "Alphabetical order: " + alphaOutput.join(", ");
 }
