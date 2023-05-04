@@ -18,6 +18,7 @@ body {
 h1 {
     color: azure;
     font-family: Aquatico-Regular;
+    size:14px;
 }
 
 h2 {
@@ -58,3 +59,7 @@ a {
     width: 100%;
 }
 
+.navbar-brand img {
+    background-color: transparent;
+  }
+  
