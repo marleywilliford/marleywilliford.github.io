@@ -15,6 +15,10 @@ body {
     background-color: var(--raisin-black);
 }
 
+div{
+    color: azure;
+}
+
 h1 {
     color: azure;
     font-family: Aquatico-Regular;
@@ -46,6 +50,68 @@ a {
     color: var(--rose);
 }
 
+table {
+    color: azure;
+}
+
+thead {
+    color: azure;
+}
+
+th {
+    color: azure;
+}
+
+tr {
+    color: azure;
+}
+
+td {
+    color: azure;
+}
+
+tbody {
+    color: azure;
+}
+
+button {
+    margin-bottom: 5px;
+    background: var(--hot-pink) !important;
+    background-color: var(--hot-pink) !important;
+    border-color: var(--hot-pink) !important;
+    color: #000 !important;
+}
+
+footer {
+    color: azure;
+    font-size: xx-small;
+}
+
+.card {
+    background-color: var(--dark-purple);
+    margin-bottom: 10px;
+}
+
+.card-title {
+    color: azure;
+    font-size: smaller
+}
+
+.card-text {
+    font-size: x-small;
+  }  
+
+.card-text::first-letter {
+    font-size: 4em;
+    font-family: Aquatico-Regular;
+    float: left;
+    padding-right: 5px;
+}
+
+.navbar-brand img {
+    background-color: transparent;
+}
+
 #currentMinute {
     color: azure;
 }
@@ -59,7 +125,34 @@ a {
     width: 100%;
 }
 
-.navbar-brand img {
-    background-color: transparent;
-  }
-  
+#textCards {
+    padding-bottom: 100px;
+}
+
+#digitalChalkboardTitle {
+    padding-top: 50px;
+}
+
+#chartTitle {
+    padding-top: 50px;
+}
+
+#jumbotron {
+    padding-top: 50px;
+}
+
+#ochreTitle {
+    padding-top: 50px; 
+}
+
+#ochreTableBody {
+    font-size: small;
+}
+
+#license {
+    font-size: x-small;
+}
+
+#programCard {
+    font-size: medium;
+}

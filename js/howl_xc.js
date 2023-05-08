@@ -17,11 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Write a single 'for...in' statement to add listeners to all the <img> elements.
     // .addEventListener('click', () => {CODE GOES HERE}
     // The animal title (e.g. 'Cow') determines which sprite is played.
-    for (const [key, value] of Object.entries(animalObjects)) {
-      const imageId = animalObjects[key];
-      const animalName = animalObjects[value];
-      const image = document.getElementById(imageId);
-      image.addEventListener("click", () => {
+    for (const [imageId, animalName] of Object.entries(animalObjects)) {
+      document.getElementById(imageId).addEventListener("click", () => {
         playAnimal(animalName);
     });
     }
@@ -32,10 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // On mouseover add this.style.border = '3px solid red';
     // On mouseout add this.style.border = '0px';
     for (const animalImage of Object.values(animalObjects)) {
-      animalImage.addEventListener("mouseover", function() {
+      document.getElementById(animalImage).addEventListener("mouseover", function() {
         this.style.border = "3px solid red";
       });
-      animalImage.addEventListener("mouseout", function() {
+      document.getElementById(animalImage).addEventListener("mouseout", function() {
         this.style.border = "0px";
       });
     }
